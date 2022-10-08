@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "alerttoast",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/elai950/AlertToast.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "a437862bb6605080a5816e866cbd4ac8c8657b49"
+      }
+    },
+    {
+      "identity" : "permissionskit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sparrowcode/PermissionsKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "976d46ddf8e6a30118ad278abc9c4f936c919ce4"
+      }
+    }
+  ],
+  "version" : 2
+}

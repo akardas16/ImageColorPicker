@@ -11,6 +11,19 @@
 		BE2A6C9E28EB20720023856A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A6C9D28EB20720023856A /* ContentView.swift */; };
 		BE2A6CA028EB20760023856A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2A6C9F28EB20760023856A /* Assets.xcassets */; };
 		BE2A6CA328EB20760023856A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2A6CA228EB20760023856A /* Preview Assets.xcassets */; };
+		BE2A6CAB28EB21600023856A /* CameraPermission in Frameworks */ = {isa = PBXBuildFile; productRef = BE2A6CAA28EB21600023856A /* CameraPermission */; };
+		BE2A6CAD28EB21600023856A /* PhotoLibraryPermission in Frameworks */ = {isa = PBXBuildFile; productRef = BE2A6CAC28EB21600023856A /* PhotoLibraryPermission */; };
+		BE2A6CB928EB26CE0023856A /* DominantColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A6CB228EB26CD0023856A /* DominantColors.swift */; };
+		BE2A6CBA28EB26CE0023856A /* INVector3SwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A6CB328EB26CD0023856A /* INVector3SwiftExtensions.swift */; };
+		BE2A6CBB28EB26CE0023856A /* PlatformExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A6CB428EB26CD0023856A /* PlatformExtensions.swift */; };
+		BE2A6CBC28EB26CE0023856A /* ColorDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A6CB528EB26CE0023856A /* ColorDifference.swift */; };
+		BE2A6CBD28EB26CE0023856A /* ColorSpaceConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A6CB628EB26CE0023856A /* ColorSpaceConversion.swift */; };
+		BE2A6CBE28EB26CE0023856A /* KMeans.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A6CB728EB26CE0023856A /* KMeans.swift */; };
+		BE2A6CBF28EB26CE0023856A /* Memoization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A6CB828EB26CE0023856A /* Memoization.swift */; };
+		BE2A6CC128EB34A30023856A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A6CC028EB34A30023856A /* Extensions.swift */; };
+		BE2A6CC328EB35B50023856A /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A6CC228EB35B50023856A /* Modifiers.swift */; };
+		BE2A6CC628EB3D9A0023856A /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = BE2A6CC528EB3D9A0023856A /* AlertToast */; };
+		BEBD233528F155BF00626F89 /* SUImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBD233428F155BF00626F89 /* SUImagePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,17 @@
 		BE2A6C9D28EB20720023856A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE2A6C9F28EB20760023856A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE2A6CA228EB20760023856A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE2A6CAE28EB21760023856A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BE2A6CB228EB26CD0023856A /* DominantColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DominantColors.swift; sourceTree = "<group>"; };
+		BE2A6CB328EB26CD0023856A /* INVector3SwiftExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INVector3SwiftExtensions.swift; sourceTree = "<group>"; };
+		BE2A6CB428EB26CD0023856A /* PlatformExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformExtensions.swift; sourceTree = "<group>"; };
+		BE2A6CB528EB26CE0023856A /* ColorDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorDifference.swift; sourceTree = "<group>"; };
+		BE2A6CB628EB26CE0023856A /* ColorSpaceConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSpaceConversion.swift; sourceTree = "<group>"; };
+		BE2A6CB728EB26CE0023856A /* KMeans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMeans.swift; sourceTree = "<group>"; };
+		BE2A6CB828EB26CE0023856A /* Memoization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memoization.swift; sourceTree = "<group>"; };
+		BE2A6CC028EB34A30023856A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BE2A6CC228EB35B50023856A /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		BEBD233428F155BF00626F89 /* SUImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUImagePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +50,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2A6CC628EB3D9A0023856A /* AlertToast in Frameworks */,
+				BE2A6CAD28EB21600023856A /* PhotoLibraryPermission in Frameworks */,
+				BE2A6CAB28EB21600023856A /* CameraPermission in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +78,15 @@
 		BE2A6C9A28EB20720023856A /* ImageColorPicker */ = {
 			isa = PBXGroup;
 			children = (
+				BEBD233628F155CE00626F89 /* ImagePickerLibrary */,
+				BE2A6CB128EB26B80023856A /* DominantColor */,
+				BE2A6CAE28EB21760023856A /* Info.plist */,
 				BE2A6C9B28EB20720023856A /* ImageColorPickerApp.swift */,
 				BE2A6C9D28EB20720023856A /* ContentView.swift */,
 				BE2A6C9F28EB20760023856A /* Assets.xcassets */,
 				BE2A6CA128EB20760023856A /* Preview Content */,
+				BE2A6CC028EB34A30023856A /* Extensions.swift */,
+				BE2A6CC228EB35B50023856A /* Modifiers.swift */,
 			);
 			path = ImageColorPicker;
 			sourceTree = "<group>";
@@ -65,6 +97,28 @@
 				BE2A6CA228EB20760023856A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE2A6CB128EB26B80023856A /* DominantColor */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A6CB528EB26CE0023856A /* ColorDifference.swift */,
+				BE2A6CB628EB26CE0023856A /* ColorSpaceConversion.swift */,
+				BE2A6CB228EB26CD0023856A /* DominantColors.swift */,
+				BE2A6CB328EB26CD0023856A /* INVector3SwiftExtensions.swift */,
+				BE2A6CB728EB26CE0023856A /* KMeans.swift */,
+				BE2A6CB828EB26CE0023856A /* Memoization.swift */,
+				BE2A6CB428EB26CD0023856A /* PlatformExtensions.swift */,
+			);
+			path = DominantColor;
+			sourceTree = "<group>";
+		};
+		BEBD233628F155CE00626F89 /* ImagePickerLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				BEBD233428F155BF00626F89 /* SUImagePickerView.swift */,
+			);
+			path = ImagePickerLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +137,11 @@
 			dependencies = (
 			);
 			name = ImageColorPicker;
+			packageProductDependencies = (
+				BE2A6CAA28EB21600023856A /* CameraPermission */,
+				BE2A6CAC28EB21600023856A /* PhotoLibraryPermission */,
+				BE2A6CC528EB3D9A0023856A /* AlertToast */,
+			);
 			productName = ImageColorPicker;
 			productReference = BE2A6C9828EB20720023856A /* ImageColorPicker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +170,10 @@
 				Base,
 			);
 			mainGroup = BE2A6C8F28EB20720023856A;
+			packageReferences = (
+				BE2A6CA928EB21600023856A /* XCRemoteSwiftPackageReference "PermissionsKit" */,
+				BE2A6CC428EB3D9A0023856A /* XCRemoteSwiftPackageReference "AlertToast" */,
+			);
 			productRefGroup = BE2A6C9928EB20720023856A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +201,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE2A6C9E28EB20720023856A /* ContentView.swift in Sources */,
+				BE2A6CC328EB35B50023856A /* Modifiers.swift in Sources */,
+				BE2A6CBB28EB26CE0023856A /* PlatformExtensions.swift in Sources */,
+				BE2A6CBD28EB26CE0023856A /* ColorSpaceConversion.swift in Sources */,
+				BEBD233528F155BF00626F89 /* SUImagePickerView.swift in Sources */,
+				BE2A6CBC28EB26CE0023856A /* ColorDifference.swift in Sources */,
 				BE2A6C9C28EB20720023856A /* ImageColorPickerApp.swift in Sources */,
+				BE2A6CC128EB34A30023856A /* Extensions.swift in Sources */,
+				BE2A6CB928EB26CE0023856A /* DominantColors.swift in Sources */,
+				BE2A6CBF28EB26CE0023856A /* Memoization.swift in Sources */,
+				BE2A6CBE28EB26CE0023856A /* KMeans.swift in Sources */,
+				BE2A6CBA28EB26CE0023856A /* INVector3SwiftExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +343,10 @@
 				DEVELOPMENT_TEAM = MHT8X3GHR9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageColorPicker/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Needs Camera Permission";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Needs photo permission";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +376,10 @@
 				DEVELOPMENT_TEAM = MHT8X3GHR9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageColorPicker/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Needs Camera Permission";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Needs photo permission";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +420,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BE2A6CA928EB21600023856A /* XCRemoteSwiftPackageReference "PermissionsKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparrowcode/PermissionsKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		BE2A6CC428EB3D9A0023856A /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BE2A6CAA28EB21600023856A /* CameraPermission */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE2A6CA928EB21600023856A /* XCRemoteSwiftPackageReference "PermissionsKit" */;
+			productName = CameraPermission;
+		};
+		BE2A6CAC28EB21600023856A /* PhotoLibraryPermission */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE2A6CA928EB21600023856A /* XCRemoteSwiftPackageReference "PermissionsKit" */;
+			productName = PhotoLibraryPermission;
+		};
+		BE2A6CC528EB3D9A0023856A /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE2A6CC428EB3D9A0023856A /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BE2A6C9028EB20720023856A /* Project object */;
 }
